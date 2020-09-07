@@ -16,7 +16,16 @@ class Blog(models.Model):
     body = models.TextField()
     # Image connected to post
     image = models.ImageField(upload_to='images/')
+    
+    def __str__(self):
+        return self.title 
 
+    def summary(self):
+        return self.body[0:100]
+
+
+    def pub_date_pretty(self):
+        return self.pub_date.strftime('%e %b %Y')
 # Add Blog app to settings - go to settings file and insert under apps 
 # create a migration - python manage.py makemigrations
 # Migrate - python manage.py migrate
