@@ -12,6 +12,11 @@
   --neon-border-color: rgb(0, 195, 255);
 }
 
+
+.jumbotron{
+  height: 100vh;
+}
+
 body {
   font-family: 'Exo 2', sans-serif;
   /* display: flex; */

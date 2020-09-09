@@ -29,19 +29,21 @@
             </div>
         </div>
     </nav>
+    <div class="jumbotron text-center mb-4" style="height:30vh; float:left; background-color:#3333">
     <body style="background-color: #003">
-    <div class="jumbotron text-center mb-4 bg col-lg-offset-4" style="background-color:#3333">
         <h2> {{ blog.title }} </h2>
-        <p>
-            <a href="mailto:nardum@gmail.com" target="_blank" class="btn btn-darkblue my-3" style="color:#ddf">e-mail</a>
-        </p>
-        <div class="container" color="primary">
-
-            <img class="rounded img-fluid" alt="Responsive image" src="{{blog.image.url}}" width="100%" height="40" />
+        <div>
+            <a href="mailto:nardum@gmail.com" target="_blank" class="btn my-2" style="color:#ddf">e-mail</a>
         </div>
+
     </div>
 </header>
-    <section class="jumbotron" style="align-self: center; background-color:#3333">
+<section class="jumbotron" style="align-self: center; background-color:#3333">
+    <div class="" style="float:right">
+        <br/>
+        <br/>
+        <img class="rounded img-fluid" alt="Responsive image" src="{{blog.image.url}}" width="50%" height="40" />
+    </div>
         <div class="container" style="color:#bbf">
             <article>
                 <p> {{ blog.body }} </p>
