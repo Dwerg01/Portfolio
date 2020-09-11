@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '(hIqU8&98@&9a1l75_dg&3%1@e0(qhdag73s6q-x)ds4m&c)gzz('
+SECRET_KEY = '(hIqqqqqqU8&98@&9a1l75_dg&3%1@e0(qhdag73s6q-x)ds4m&c)gzz('
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'portfoliodb',
         'USER': 'postgres',
-        'PASSWORD': 'Lieweh3ks13',
+        'PASSWORD': '############',
         'HOST': '127.0.0.1',
         'PORT': '5432'
     }
